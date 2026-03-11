@@ -35,3 +35,55 @@ Real-world modeling – Easier to represent objects like Cars, Employees, etc.
 Security – Encapsulation protects sensitive data.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+1. What is a Constructor?
+
+A constructor is a special method in a class that is used to initialize objects when they are created.
+
+Key Points:
+
+It has the same name as the class.
+
+It does not have a return type (not even void).
+
+It is automatically called when an object is created using new.
+
+Its main purpose is to initialize object fields.
+
+
+2. Types of Constructors in Java
+a) Default Constructor
+A constructor with no parameters.
+
+If you don’t define any constructor, Java provides a default constructor automatically.
+
+b) Parameterized Constructor
+
+A constructor that takes arguments to initialize objects with custom values.
+
+c) Constructor Overloading
+
+Just like methods, constructors can be overloaded — multiple constructors with different parameters.
+
+class Car {
+    String color;
+    int speed;
+
+    Car() {             // default
+        color = "White";
+        speed = 0;
+    }
+
+    Car(String c) {     // 1 parameter
+        color = c;
+        speed = 0;
+    }
+
+    Car(String c, int s) { // 2 parameters
+        color = c;
+        speed = s;
+    }
+}
+
+
