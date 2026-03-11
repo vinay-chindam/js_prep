@@ -1,1 +1,37 @@
 
+OOP is a programming paradigm based on the concept of “objects”, which can contain:
+Data and methods
+class Car {
+    String color;
+    int speed;
+
+    void drive() {
+        System.out.println("Car is driving at " + speed + " km/h");
+    }
+}
+
+Car myCar = new Car();
+myCar.color = "Red";
+myCar.speed = 100;
+myCar.drive();
+
+
+Encapsulation
+Inheritence
+Polymorphism
+Abstraction
+
+
+Why OOP is important in Java
+
+Reusability – Write once, use multiple times using classes and inheritance.
+
+Maintainability – Code is modular and easier to manage.
+
+Scalability – Easy to add new features without breaking existing code.
+
+Real-world modeling – Easier to represent objects like Cars, Employees, etc.
+
+Security – Encapsulation protects sensitive data.
+
+----------------------------------------------------------------------------------------------------------------------------------------
