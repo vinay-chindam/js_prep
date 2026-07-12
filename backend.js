@@ -1,0 +1,4 @@
+Get method
+  Idempotent
+  cachable
+  
